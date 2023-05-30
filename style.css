@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+  width: 70%;
+  margin: 30px auto;
+  font-family: "Inter", sans-serif;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+  color: hsl(236, 13%, 42%);
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: white;
+  justify-content: space-around;
+}
+
+.container-fluid {
+  padding-right: 80px;
+}
+
+/* Top Half Styles */
+.top,
+.bottom {
+  margin-top: 40px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.read {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  letter-spacing: 1.5px;
+  padding: 10px 10px;
+  margin: auto;
+}
+
+.new {
+  background-color: hsl(240, 100%, 5%);
+  padding: 20px;
+}
+
+@media screen and (max-width: 754px) {
+  .new {
+    margin-top: 20px;
+  }
+}
+
+.new h2 {
+  color: hsl(35, 77%, 62%);
+}
+
+.new h3,
+.bottom h2 {
+  color: white;
+}
+
+.new p {
+  color: hsl(36, 100%, 99%);
+}
+
+hr {
+  border-top: 2px solid hsl(36, 100%, 99%);
+  width: 85%;
+}
+
+/* Bottom Half Styles */
+.bottom h2 {
+  color: hsl(233, 8%, 79%);
+  font-size: 18px;
+}
+
+.bottom h3 {
+  font-size: 15px;
+}
+
+.bottom img {
+  width: 100%;
+  height: 90%;
+}
+
+/* Attribution Styles */
+.attribution {
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+.attribution a {
+  background-color: white;
+  color: hsl(228, 45%, 44%);
+}
